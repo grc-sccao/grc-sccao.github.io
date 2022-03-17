@@ -1,0 +1,177 @@
+/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- Hello, my name is Sarah Cao and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing March 2022 ------------ */
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(images/leaves-image.jpeg)
+		center center fixed no-repeat;
+	background-size: cover;
+	
+	
+}
+   
+#logo {
+    position: absolute;
+	width: 400px;
+	height: 400.5px;
+	left: 250px;
+	top: 185px;
+	bottom: 100px;
+	background: url(sarahcao-logo@2x.png);
+	margin-bottom: 16px;
+	border: 0px dashed red;
+}
+
+h1 {
+	position: absolute;
+	left: 2%;
+	right: 1.93%;
+	top: 0%;
+	bottom: 35.19%;
+	left: 662px;
+	top: 230px;
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 48px;
+	letter-spacing: -0.04em;
+	color: #FFFFFF;
+}
+
+h2 {
+	font-family: proxima-nova,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: rgb(233, 255, 185);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	position: absolute;
+	width: 745px;
+	height: 148px;
+	left: 0px;
+	top: 115px;
+	
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	letter-spacing: 0.01em;
+	line-height: 30px;
+	color: rgb(255 255 255);
+
+	backdrop-filter: blur(2px);
+	width: 500px;
+	
+}
+
+nav{
+	position: absolute;	
+	left: -205px;
+	top: 260px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 20px;
+	color: #54663E;
+	width: 900px;
+	margin: 0 auto;
+	border: dashed turquoise;
+	border-width: 0px 0;
+	text-align: center;
+	margin-top: 0em;
+}
+
+    
+		nav li{
+			display:inline
+			}
+		
+			nav a{
+				color:rgb(59, 64, 48);
+				background:rgb(255, 255, 255);
+				border-radius: 45px;
+				width: 140px;
+				height: 20px;
+				padding: 15px;
+				display:inline-block;
+
+				}
+			
+			a{
+				color:rgb(255, 255, 255);
+				text-decoration: none;
+				font-style: normal;
+				font-weight: 500;
+				
+				}
+			a:hover{
+				color:rgb(84 103 62);
+				background:rgb(233, 255, 185)
+				}
+    
